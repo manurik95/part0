@@ -8,7 +8,6 @@ sequenceDiagram
 
     browser->>server: POST /new_note
     activate server
-     server-->>server: Processing the POST Request
     server-->>browser: Redirect, so the browser starts another GET Request for /notes
     deactivate server
 
