@@ -8,8 +8,7 @@ sequenceDiagram
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa (new note is sent as JSON)
     activate server
-    server-->>server: 
-    Note right of server: The server processes the new note
+    
     
     deactivate server
 
