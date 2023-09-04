@@ -14,5 +14,5 @@ sequenceDiagram
 
     
 
-    Note right of browser: The new note will be added via the JS-Script first fetched from the server
+    Note right of browser: On clientside the new note will be added via the JS-Script first fetched from the server
 ```
